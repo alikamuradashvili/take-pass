@@ -7,10 +7,22 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Runtime and cache output
 node_modules
 dist
 dist-ssr
+.vite
+.cache
+coverage
+playwright-report
+test-results
+.playwright
+.playwright-mcp
+
+# Local environment files
 *.local
+.env
+.env.*
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +34,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OS / misc
+Thumbs.db
